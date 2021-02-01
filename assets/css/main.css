@@ -3173,10 +3173,10 @@ input, select, textarea {
 		}
 
 		ul.feature-icons li {
-			margin: 2.5rem 0 0 0;
+			margin: 0 0 2.5rem 0;
 			padding: 0.5rem 0 0 4.5rem;
 			position: relative;
-			width: 50%;
+			width: 100%;
 		}
 
 			ul.feature-icons li:before {
@@ -3194,10 +3194,6 @@ input, select, textarea {
 				text-align: center;
 				top: 0;
 				width: 3.25rem;
-			}
-
-			ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
-				margin-top: 0;
 			}
 
 		@media screen and (max-width: 736px) {
